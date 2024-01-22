@@ -21,6 +21,11 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.stats-container:hover{
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +77,16 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+button:hover{
+    cursor: pointer;
+}
+#unfunded-btn:hover {
+    background-color: #b3b7bb;
+}
+#funded-btn:hover{
+    background-color: #b3b7bb;
+}
+#all-btn:hover{
+    background-color: #b3b7bb;
 }

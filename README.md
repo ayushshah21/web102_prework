@@ -1,8 +1,8 @@
 # WEB102 Prework - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: Ayush Shah
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Deep Sea Dominion is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **X** hours spent in total
 
@@ -10,20 +10,31 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [Yes] The introduction section explains the background of the company and how many games remain unfunded.
+* [Yes] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [Yes] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [Yes] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [Added hover effects to buttons, Displayed the amount of funding for each of the top 2 games displayed ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![Title/Intro Walkthrough](gif-walkthrough-images/Title-Intro.gif)
+![Stats](gif-walkthrough-images/Stats.gif)
+![Top Funded Games ](gif-walkthrough-images/Top-Funded-Games.gif)
+![Games](gif-walkthrough-images/Games.gif)
+![All Games](gif-walkthrough-images/All-Games.gif)
+![Funded Games](gif-walkthrough-images/Funded-Games.gif)
+![Unfunded Games](gif-walkthrough-images/Unfunded-Games.gif)
+
+
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -34,11 +45,14 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challenge I encountered was thoroughly understanding template literals properly. Although I do have prior experience using them, it completely left my mind that they have to be enclosed by backticks, and that quotation marks don't work, but I was able to get around that hurdle after reading the description closely and referring to MDN Web Docs.
+
+Another challenge I faced was understanding the notation for the spread operator and applying it properly in the index.js file. The spread operator reminded me of the power that JavaScript has in copying one object to produce another modified version of it. It makes your code much more efficient and easy to use rather. As someone who has often used a for loop copying certain array elements, I was glad to remember and get familiar again with the spread operator.
+
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Ayush Shah
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
